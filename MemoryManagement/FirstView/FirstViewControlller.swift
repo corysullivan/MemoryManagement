@@ -6,4 +6,11 @@
 //  Copyright © 2020 Solbits. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class FirstViewController: UIViewController {}
+
+extension FirstViewController: StoryboardMakeable {
+    static let storyboardName = "First"
+    typealias StoryboardMakeableType = FirstViewController
+}
